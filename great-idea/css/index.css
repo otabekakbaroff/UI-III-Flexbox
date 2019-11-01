@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -18,22 +18,22 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+} */
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+ ol, ul {
+	list-style-type: square;
+
 blockquote, q {
 	quotes: none;
 }
@@ -45,7 +45,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} */
 
 /* Set every element's box-sizing to border-box */
 * {
@@ -62,5 +62,171 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+ol, ul {
+	list-style-type: square;
+
+}
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+
+/* NAVIGATION TAB */
+
+
+.navbar{
+	margin-bottom:2%;
+    padding:1%;
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    height:3em;
+}
+nav{
+    width:100%;
+    display:flex;
+    justify-content: space-around;  
+}
+nav a{
+    color:#bbb;
+    padding:1%;
+}
+
+
+
+/* MAIN IMAGE */
+.main-img{
+	width:100%;
+	display:flex;
+	justify-content: center;
+}
+.main-img img{
+	width:91%;
+	margin-left:5%;
+}
+
+
+
+
+
+/* main header */
+.main-header{
+	margin-left:7%;
+	width:91%;
+	margin-bottom:2%;
+}
+
+
+hr{
+	margin-left:7%;
+	width:91%;
+}
+
+
+
+/* CONTENT */
+.content{
+	margin-left:3.5%;
+}
+
+/* DIGITAL SESIGN and UX/UI */
+.content-one{
+	width:100%;
+	display:flex;
+	margin:4%;
+	margin-left:3.5%;
+}
+.digital-design{
+	padding:1%;	
+	width:100%;
+	border:0.01rem solid black;
+	background-color:#f4f3f4;
+}
+.ux-ui{
+	margin-right:5.8%;
+	margin-left:3%;
+	padding:1%;	
+	width:100%;
+	border:0.01rem solid black;
+	background-color:#f4f3f4;
+}
+
+
+/* DIGITAL MARKETING and WEB DEVELOPMENT */
+.content-two{
+	width:100%;
+	display:flex;
+	margin:4%;
+	margin-left:3.5%;
+}
+.digital-marketing{
+	padding:1%;	
+	width:100%;
+	border:0.01rem solid black;
+	background-color:#f4f3f4;
+}
+.web-development{
+	margin-right:5.8%;
+	margin-left:3%;
+	padding:1%;	
+	width:100%;
+	border:0.01rem solid black;
+	background-color:#f4f3f4;
+}
+
+
+/* IOS DEVELOPMENT and ANDROID DEVELOPMENT */
+.content-three{
+	width:100%;
+	display:flex;
+	margin:4%;
+	margin-left:3.5%;
+}
+.ios-development{
+	padding:1%;	
+	width:100%;
+	border:0.01rem solid black;
+	background-color:#f4f3f4;
+}
+.android-development{
+	margin-right:5.8%;
+	margin-left:3%;
+	padding:1%;	
+	width:100%;
+	border:0.01rem solid black;
+	background-color:#f4f3f4;
+}
+
+
+/* ABOUT */
+.about{
+	margin-left:2%;
+	display:flex;
+	justify-content: space-around;
+}
+.about img{
+	margin:5%;
+	width:100%;
+}
+.about div{
+	display:flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	margin:5%;
+}
+.about p{
+	width:76%;
+}
+ol,ul{
+	margin-left:3.2%;
+	padding:0;
+}
+
+
+
+/* copyright */
+footer{
+	padding:2%;
+     text-align: center;
+}
