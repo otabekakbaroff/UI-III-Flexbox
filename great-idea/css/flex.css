@@ -1,0 +1,169 @@
+/*                    RESET                    */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* Set every element's box-sizing to border-box */
+/* * {
+	box-sizing: border-box;
+} */
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+/* Navigation bar*/
+
+.navbar{
+    padding:1%;
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    height:3em;
+}
+nav{
+    width:100%;
+    display:flex;
+    justify-content: space-around;  
+}
+nav a{
+    color:#bbb;
+    padding:1%;
+}
+.img{
+    width:25%;
+
+}
+.img img{
+    margin-left:15%;
+}
+
+
+
+/* main header-text*/
+header{
+    
+    display:flex;
+    justify-content: space-around;
+}
+h1{
+    width:100%;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-size:500%;
+}
+.get-started{
+    padding:0.2% 4% 0.2% 4%;
+    border:1px solid black;
+}
+.header-text{
+    width:100%;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-img{
+    width:100%;
+    padding:5%;
+}
+
+.header-img img{
+    width:60%;
+}
+
+
+
+
+
+
+/* CONTENT */
+
+
+
+
+/* top content */
+hr{
+    margin-left:7%;
+    width:90%;
+}
+.content{
+    display:flex;
+    width:100%;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top-content{
+    display:flex;
+    text-align: left;
+}
+.top-content p{
+    width:85%;
+    padding: 3% 0% 3% 0%;
+}
+.content-img{
+    width:100%;
+}
+.content-img{
+    display:flex;
+    justify-content: flex-start;
+}
+.content-img img{
+    margin-left: 7%;
+    width: 90%;;
+}
+.features{
+    margin-left:7%;
+}
+
+
+
+/* bottom content */
+
+.bottom-content{
+    margin-left: 2%;
+    display:flex;
+    text-align: left;
+    justify-content: space-between;
+}
+.bottom-content section{
+    padding:5%;
+}
+
+
+
+
+
+/* CONTANT */
+
+
+address{
+    margin-left: 7%;
+}
+address p{
+    padding-top:2%;
+}
+
+footer{
+    text-align: center;
+    padding:5%;
+}
